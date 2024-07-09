@@ -6,7 +6,7 @@ You can create your own fighters, and invent your own moves. Use the Battle(play
 If you are lazy to read my code, here's a basic example to create your own character: 
 I expect you to understand the variable names. The damage variable is the value of the move. If the movetype is Attack, it will be used as damage. If the movetype is Buff, it will increase the Fighter's attack by that value.
 
-1. Create a variable with the class Fighter. Ignore the delay function, it is a remanant of a previous system.
+1. Create a variable with the class Fighter. Ignore the delay variable, it is a remanant of a previous system.
 ```
 kaydenbasic = Fighter(
     name='Kayden(Basic)',
